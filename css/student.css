@@ -1,0 +1,44 @@
+
+body {
+    background              : #1C1A30;
+
+    display                 : flex;
+    flex-direction          : column;
+    align-items             : center;
+
+    color                   : white;
+}
+
+.div-block-card {
+    display                 : flex;
+    flex-direction          : column;
+    justify-content         : center;
+    align-content           : center;
+    margin-bottom           : 40px;
+
+    width                   : 540px;
+    height                  : 300px;
+
+    background              : rgb(20,20,20);
+    box-shadow              : 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);  
+    
+}
+
+.div-block-card h1 {
+
+    display                 : flex;
+    justify-content         : center;
+
+    text-transform          : uppercase;
+    padding                 : 15px 40px;
+  
+    
+    
+    font-family             : 'Roboto', sans-serif;
+    font-size               : 1.4em;
+    font-weight             : normal;
+    line-height             : 32px;
+    letter-spacing          : 8px;
+    border-bottom           : 1px solid #19F6E8;
+
+}
